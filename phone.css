@@ -1,0 +1,124 @@
+/* General Reset for Mobile */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Navbar Styles for Mobile */
+.navbar ul {
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  background-color: #333;
+}
+
+.navbar ul li {
+  text-align: center;
+  margin: 5px 0;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+/* Home Section */
+#home .main {
+  text-align: center;
+  margin: 20px 10px;
+}
+
+#home .headings {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+#home .btn {
+  font-size: 14px;
+  padding: 10px 20px;
+  width: 90%;
+}
+
+/* About Section */
+#about #pic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+}
+
+#about #pic img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+#about #intro {
+  margin-top: 15px;
+}
+
+#about #intro h1,
+#about #intro h2 {
+  font-size: 16px;
+}
+
+/* Certificates Section */
+.gallery, .gallery1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery img,
+.gallery1 img {
+  max-width: 90%;
+  margin: 5px 0;
+  height: auto;
+}
+
+/* Projects Section */
+.row {
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px;
+}
+
+.box {
+  width: 90%;
+  margin: 0 auto 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.box h1 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Contact Section */
+.contact-info {
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+}
+
+.contact-info i {
+  margin-right: 5px;
+}
+
+.contact-info a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
